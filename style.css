@@ -1,0 +1,126 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+body {
+      font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #2c3e50;
+    color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 60px;
+      height: 10vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    gap: 20px;
+    background-color: #18bc9c;
+    color: white;
+    font-size: 28px;
+}
+
+.subscribe {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+}
+
+.subscribe-top p {
+    color: #999;
+}
+
+.subscribe-bottom input {
+    padding: 8px 10px;
+    width: 32vw;
+}
+.subscribe-bottom button {
+    padding: 8px 10px;
+    border: none;
+    background-color: #18bc9c;
+    color: #fff;
+    border-radius:4px ;
+}
+
+.gross-heading {
+    text-align: center;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    color: #999;
+}
+
+.gross-card {
+    width: 350px;
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    gap: 20px;
+    padding: 28px;
+    text-align: center;
+}
+
+.gross-card:hover {
+    background-color: #18bc9c;
+
+}
+
+.gross-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.class-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gross-section {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 16px 60px;
+    gap: 32px;
+}
+
+
+.footer{
+    height: 24vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.footer-1{
+    padding: 16px 60px;
+}
+
+.footer-heading{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.effect:hover{
+    margin-top: 10px;
+    background-color: blue;
+}
